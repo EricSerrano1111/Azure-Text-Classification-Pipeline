@@ -1,0 +1,97 @@
+{
+    "runId": "<RUN_ID>",
+    "runUuid": "<RUN_ID>",
+    "parentRunUuid": null,
+    "rootRunUuid": "<RUN_ID>",
+    "target": null,
+    "status": "Completed",
+    "parentRunId": null,
+    "dataContainerId": "<DATA_CONTAINER_ID>",
+    "createdTimeUtc": "2026-04-15T00:49:25.3052104+00:00",
+    "startTimeUtc": "2026-04-15T00:49:26.531Z",
+    "endTimeUtc": "2026-04-15T00:57:59.631Z",
+    "error": null,
+    "warnings": null,
+    "tags": {},
+    "properties": {
+        "azureml.runsource": "azureml.PipelineRun",
+        "runSource": "Designer",
+        "runType": "HTTP",
+        "azureml.parameters": "{}",
+        "azureml.continue_on_step_failure": "True",
+        "azureml.continue_on_failed_optional_input": "True",
+        "azureml.defaultComputeName": "bbc-cluster",
+        "azureml.defaultDataStoreName": "workspaceblobstore",
+        "azureml.pipelineComponent": "pipelinerun",
+        "azureml.pipelines.stages": "{\"Initialization\":null,\"Execution\":{\"StartTime\":\"2026-04-15T00:49:26.7732562+00:00\",\"EndTime\":\"2026-04-15T00:57:59.504353+00:00\",\"Status\":\"Finished\"}}"
+    },
+    "parameters": {},
+    "services": {},
+    "inputDatasets": [],
+    "outputDatasets": [],
+    "runDefinition": null,
+    "logFiles": {
+        "logs/azureml/executionlogs.txt": "<LOG_URL_SANITIZED>",
+        "logs/azureml/stderrlogs.txt": "<LOG_URL_SANITIZED>",
+        "logs/azureml/stdoutlogs.txt": "<LOG_URL_SANITIZED>"
+    },
+    "jobCost": {
+        "chargedCpuCoreSeconds": null,
+        "chargedCpuMemoryMegabyteSeconds": null,
+        "chargedGpuSeconds": null,
+        "chargedNodeUtilizationSeconds": null
+    },
+    "revision": 7,
+    "runTypeV2": {
+        "orchestrator": "Pipeline",
+        "traits": [
+            "azureml.PipelineRun",
+            "Designer",
+            "HTTP"
+        ],
+        "attribution": null,
+        "computeType": null
+    },
+    "settings": {},
+    "computeRequest": null,
+    "compute": null,
+    "createdBy": {
+        "userObjectId": "<USER_OBJECT_ID>",
+        "userPuId": "<SANITIZED>",
+        "userIdp": "<SANITIZED>",
+        "userAltSecId": "<SANITIZED>",
+        "userIss": "<SANITIZED>",
+        "userTenantId": "<YOUR_TENANT_ID>",
+        "userName": "Eric Serrano",
+        "upn": null,
+        "clientApplicationId": null,
+        "applicationACR": null
+    },
+    "computeDuration": "00:08:33.1001673",
+    "effectiveStartTimeUtc": null,
+    "runNumber": 1776214165,
+    "rootRunId": "<RUN_ID>",
+    "experimentId": "<EXPERIMENT_ID>",
+    "userId": "<USER_ID>",
+    "statusRevision": 4,
+    "currentComputeTime": null,
+    "lastStartTimeUtc": null,
+    "lastModifiedBy": {
+        "userObjectId": "<USER_OBJECT_ID>",
+        "userPuId": "<SANITIZED>",
+        "userIdp": "<SANITIZED>",
+        "userAltSecId": "<SANITIZED>",
+        "userIss": "<SANITIZED>",
+        "userTenantId": "<YOUR_TENANT_ID>",
+        "userName": "Eric Serrano",
+        "upn": null,
+        "clientApplicationId": null,
+        "applicationACR": null
+    },
+    "lastModifiedUtc": "2026-04-15T00:57:59.5551017+00:00",
+    "duration": "00:08:33.1001673",
+    "inputs": {},
+    "outputs": null,
+    "currentAttemptId": 1
+}
+
